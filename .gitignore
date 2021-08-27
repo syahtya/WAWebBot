@@ -1,4 +1,4 @@
 /build
 .vscode
-___pycache__
+__pycache__
 geckodriver.log

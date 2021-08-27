@@ -53,16 +53,6 @@ class DBConnection(object):
 
         return
 
-# #fungsi ambil data config.ini
-# def getConfig(section,key):
-#    config = configparser.ConfigParser()
-#    config.read('config.ini')
-#    # config.section()
-#    cfg = config[section][key]
-#    return cfg
-# fungsi ambil data config.json
-
-
 def getConfig(section, key):
     with open("config.json") as json_data_file:
         data = json.load(json_data_file)
