@@ -1,0 +1,4 @@
+/build
+.vscode
+___pycache__
+geckodriver.log

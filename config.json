@@ -1,0 +1,26 @@
+{
+   "ATH":{
+      "creator": "sdproject",
+      "name": "WAWebBot",
+      "version": "alpha-0.0.1",
+      "description": "sent via WhatsApp Web"
+   },
+   "DB": {
+      "host": "localhost",
+      "user": "kelinci",
+      "password": "ujiKlinis@2021",
+      "database": "kelinci"
+   },
+   "PRF": {
+      "driver": "Firefox",
+      "binDriverPath": "/usr/bin/geckodriver",
+      "profileBrowserPath": "/home/syahtya/.mozilla/firefox/oa6y8nd6.default-release",
+      "formatPesan": "TokoSembarangKalir{br}{br}kode OTP anda *{otp}* {br}{br}_PENTING: Mohon tidak meyabarkan kode tersebut kesiapapun termasuk management_{br}{br} *Management TokoSembarangKalir*"
+   },
+   "CLS": {
+      "msgBoxParrent": "p3_M1",
+      "msgBoxChild": "_1UWac",
+      "msgBoxSubChild": "_13NKt",
+      "buttonSend": "_4sWnG"
+   }
+}
